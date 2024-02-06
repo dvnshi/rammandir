@@ -1,0 +1,93 @@
+/* Resetting some default styles for better consistency */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the contact section */
+.contact-section {
+    background-color: #f8f8f8;
+    padding: 40px;
+    text-align: center;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-details {
+    text-align: left;
+}
+
+.contact-details h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-details p {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Styling the contact image */
+.contact-image {
+    background-image: url(../galleryy/galleryy-photo/mandir8.webp);
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+ 
+}
+/* ... (previous styles) ... */
+
+/* Styling the contact section */
+.contact-section {
+    background-color: #f8f8f8;
+    padding: 40px;
+    text-align: center;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-details {
+    text-align: left;
+}
+
+.contact-details h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-details p {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Styling the contact image */
+.contact-image {
+    background-image: url(../images/text-ram.png);
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 250px;
+    border: 3px solid orange;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.contact-image:hover {
+    transform: scale(1.1);
+}
+
+/* Additional styling for contact details */
+.contact-details p strong {
+    color: #ff4e02; /* Orange color for strong elements */
+}
+
+/* ... (any additional styles you may want to add) ... */
